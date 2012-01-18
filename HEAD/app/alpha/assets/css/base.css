@@ -1,0 +1,44 @@
+/*
+    Document   : base
+    Created on : Jan 10, 2012, 10:53:28 PM
+    Author     : marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, div, span, p, h1, h2, h3, h4, h5 {
+    color: #030;
+/*    color: #1F1F5C;*/
+    font-family: Quattrocento, serif;
+    font-size: 100%;
+}
+
+.block {
+    display: block;
+}
+
+a.ads {
+    display: block;
+    text-align: center;
+}
+
+section, div, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}

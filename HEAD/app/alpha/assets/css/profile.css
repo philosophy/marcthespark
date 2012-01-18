@@ -1,0 +1,49 @@
+/*
+    Document   : profile
+    Created on : Jan 10, 2012, 11:31:25 PM
+    Author     : marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+#profile-pic {
+    width: 200px;
+    float: left;
+    padding: 10px 0 0;
+    position: relative;
+    border-right: 1px solid #fff;
+    font-size: 12px;
+    height: 300px;
+}
+
+#profile-pic > a {
+    display: block;
+    with: 150px;
+    margin-bottom: 10px;
+}
+
+#profile-pic img {
+    width: 187px;
+    height: 249px;
+}
+
+#profile-banner {
+    overflow: hidden;
+    position: relative;
+    padding: 10px 10px 0;
+    height: 300px;
+    border-left: 1px solid #aaa;
+}
+
+#info-container a,
+#info-container p,
+#info-container span {
+    color: white;
+}
+

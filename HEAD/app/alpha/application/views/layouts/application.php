@@ -3,9 +3,9 @@
     <head>
         <title><?php if(isset($title)){echo $title;} ?></title>
         <?php
-//            echo css_asset('base.css');
-//            echo css_asset('banner.css');
-//            echo css_asset('content.css');
+            echo css_asset('base.css');
+            echo css_asset('body.css');
+            echo css_asset('profile.css');
 //            echo css_asset('form.css');
 //            echo css_asset('banner/home_banner.css');
 //            echo css_asset('content/home_content.css');
@@ -45,6 +45,21 @@
         ?>
     </head>
     <body>
-        HELLO WORLD
+         <?php
+            $classname = $this->router->class . ' ' . $this->router->method ;
+        ?>
+
+        <div id="wrapper" class="<?php echo $classname ?>">
+            <header>
+                Marc the Spark Ninja
+            </header>
+            <section class="body">
+                <?php $this->load->view($content); ?>
+            </section>
+
+            <section id="footer">
+                <?php $this->load->view('layouts/application/footer'); ?>
+            </section>
+        </div>
     </body>
 </html>

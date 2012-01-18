@@ -1,0 +1,94 @@
+/*
+    Document   : body
+    Created on : Jan 8, 2012, 10:35:49 PM
+    Author     : marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#wrapper {
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+    width: 700px;
+
+}
+
+#wrapper > header {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#wrapper section.body{
+/*    min-height: 600px;*/
+    width: 692px;
+    color: #8BCAA0;
+    background: #8BCAA0;
+/*    background: #CCCCCC;*/
+    -webkit-border-top-left-radius: 23px;
+    -webkit-border-top-right-radius: 23px;
+    -moz-border-radius-topleft: 23px;
+    -moz-border-radius-topright: 23px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    padding: 4px;
+}
+
+#info-container {
+    background: #3B5998;
+/*    background: #008000;*/
+    padding: 20px;
+    -webkit-border-top-left-radius: 23px;
+    -webkit-border-top-right-radius: 23px;
+    -moz-border-radius-topleft: 23px;
+    -moz-border-radius-topright: 23px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+
+section.content {
+    background: #627AAD;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+section.content .aside {
+    background: #627AAD;
+    width: 190px;
+    float: left;
+    padding-top: 5px;
+}
+
+section.content .primary {
+    height: 400px;
+    background: white;
+    width: 100%;
+}
+
+section.content .container {
+    overflow: hidden;
+}
+
+section#footer {
+    text-align: center;
+}
+
+#footer a,
+#footer p,
+#footer span{
+    font-size: 0.8em;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer li {
+    display: inline-block;
+}
