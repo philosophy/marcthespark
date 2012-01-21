@@ -41,7 +41,8 @@
 }
 
 #info-container {
-    background: #3B5998;
+/*    background: #3B5998;*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#142333), to(#3B5998));
 /*    background: #008000;*/
     padding: 20px;
     -webkit-border-top-left-radius: 23px;
@@ -53,13 +54,15 @@
 }
 
 section.content {
-    background: #627AAD;
+    background: #3B5999;
+/*    background: #627AAD;*/
     margin-top: 5px;
     overflow: hidden;
 }
 
 section.content .aside {
-    background: #627AAD;
+    background: #3B5999;
+/*    background: #627AAD;*/
     width: 190px;
     float: left;
     padding-top: 5px;
