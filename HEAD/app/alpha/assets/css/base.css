@@ -42,3 +42,7 @@ section, div, article {
     font-size: 100%;
     vertical-align: baseline;
 }
+
+.bold {
+    font-weight: bold;
+}

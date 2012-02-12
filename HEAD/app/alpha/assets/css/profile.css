@@ -41,6 +41,10 @@
     border-left: 1px solid #aaa;
 }
 
+#profile-banner #share-buttons {
+    margin-top: 40px;
+}
+
 #info-container a,
 #info-container p,
 #info-container span {

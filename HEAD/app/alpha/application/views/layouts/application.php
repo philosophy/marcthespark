@@ -51,7 +51,7 @@
 
         <div id="wrapper" class="<?php echo $classname ?>">
             <header>
-                Marc the Spark Ninja
+                Marc the Spark
             </header>
             <section class="body">
                 <?php $this->load->view($content); ?>
