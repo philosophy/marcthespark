@@ -1,7 +1,7 @@
 
 <div id="profile-pic">
     <a href="#">
-        <?php echo image_asset('profile.jpg', '', array('width'=>200, 'height'=>200, 'alt'=>'Profile Picture')) ?>
+        <?php echo image_asset('primary_pic_cropped.jpg', '', array('width'=>200, 'height'=>200, 'alt'=>'Profile Picture')) ?>
     </a>
     <span class="block">
         Web Developer / Programmer
