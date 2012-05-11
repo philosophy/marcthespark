@@ -51,3 +51,52 @@
     color: white;
 }
 
+#resume span {
+    padding: 17px 5px;
+    display: block;
+}
+
+#resume span a {
+    color: #DDD;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.mail-to:hover {
+    text-decoration: underline;
+}
+
+#projects-list header, #updates-wall header{
+    font-weight: bold;
+}
+
+#projects-list ul{
+    padding: 0 0 0 15px;
+}
+
+#projects-list ul li{
+    margin-bottom: 10px;
+}
+
+#projects-list .projects span.duration {
+    display: block;
+    font-style: italic;
+}
+
+#projects-list span.title {
+    background: #EEE;
+    margin-left: 10px;
+}
+#projects-list span.title a{
+    text-decoration: underline;
+}
+
+#updates-wall {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #CCC;
+}
+
+#updates-wall .update {
+    min-height: 30px;
+}

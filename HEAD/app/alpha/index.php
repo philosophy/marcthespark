@@ -128,6 +128,8 @@ if (defined('ENVIRONMENT'))
 // END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
 // --------------------------------------------------------------------
 
+        $public_path = 'public';
+
 /*
  * ---------------------------------------------------------------
  *  Resolve the system path for increased reliability
@@ -168,6 +170,9 @@ if (defined('ENVIRONMENT'))
 
 	// Path to the system folder
 	define('BASEPATH', str_replace("\\", "/", $system_path));
+
+	// Path to the public folder
+	define('PUBLICPATH', str_replace("\\", "/", $public_path));
 
 	// Path to the front controller (this file)
 	define('FCPATH', str_replace(SELF, '', __FILE__));

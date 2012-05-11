@@ -15,10 +15,24 @@
 
 <section id="" class="content">
     <article class="aside">
-<!--        <a href="friendster.com" target="_blank"><h1>My First Video</h1></a>-->
         <a class="ads" href="http://byethost.com" target="_blank"><?php echo image_asset('vendor/byethost/byethost.gif', '', array('width'=>180, 'height'=>130, 'alt'=>'Byet Hosting')) ?></a>
+
+        <div id="resume">
+            <span>
+                <i class="icon"></i>
+                <?php echo anchor(site_url('resume'), 'Download Resume', array('target' => '_blank')); ?>
+            </span>
+        </div>
     </article>
     <section class="container">
-        <article class="primary">Coming soon...</article>
+        <article class="primary">
+            <section id="updates-wall">
+                <header>Updates:</header>
+                <div class="update">
+                    <span>Will attend Ruby Conference in Singapore on May 18-19, cool!</span>
+                </div>
+            </section>
+            <?php $this->load->view('profile/_projects.php'); ?>
+        </article>
     </section>
 </section>
